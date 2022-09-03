@@ -1,3 +1,9 @@
+# Installation
+1) Download [NodeJS](https://nodejs.org/en/download/)
+2) Run `git clone https://github.com/cezar-r/hack-the-flag-site.git & cd hack-the-flag-site`
+3) Run `npm start`
+4) If you get a `'react-scripts' is not recognized as an internal or external command` error, run `npm install react-scripts --save`. Then rerun `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
