@@ -13,8 +13,11 @@ const LoginField = () => {
         const netId = event.target[0].value;
     
         if (validNetIds.includes(netId)) {
-            console.log("youre in")
-            navigate('/announcements')
+            console.log("youre in");
+            navigate('/announcements');
+        } else {
+            console.log("who tf is " + netId);
+            console.log("try 'cezarr' for now and add ur netid in admin-panel");
         }
     }
     
