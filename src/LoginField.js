@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {Link, Routes, Route, useNavigate, Navigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { validNetIds } from './admin-panel';
 
@@ -19,7 +19,7 @@ const LoginField = () => {
     }
     
     return (
-        <form onSubmit={handleSubmit}>
+        <form  onSubmit={handleSubmit}>
             <input className="loginButton" type="text" placeholder = "Enter NetID"></input>    
         </form>
     );

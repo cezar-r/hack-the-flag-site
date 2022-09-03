@@ -1,10 +1,19 @@
 import './App.css';
 import LoginField  from './LoginField'
+import MatrixBG from './MatrixBG';
+
 
 const Home = () => {
+
+
     return (
-        <div>
-            <LoginField />
+        <div id="container">
+            <div id="bg">
+                <MatrixBG />
+            </div>
+            <div >
+                <LoginField />
+            </div>
         </div>
     );
 };

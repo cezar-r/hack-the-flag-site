@@ -11,9 +11,9 @@ import AboutUs from './AboutUs';
 /**
  * TODO
  * fix top border of login field being darker
+ * add calendar
  * add discord url to discord nav that just launches discord
- * add this https://codepen.io/yaclive/pen/EayLYO to home
- * 
+ * make matrix rain start at random position
  */
 
 function App() {
