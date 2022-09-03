@@ -4,6 +4,7 @@ import { aboutUs } from './admin-panel';
 
 import Navbar from './Navbar';
 
+
 export default function Topics() {
 
     const aboutUsElements = aboutUs.map((a) => 

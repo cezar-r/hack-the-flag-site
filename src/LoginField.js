@@ -18,7 +18,6 @@ const LoginField = () => {
         }
     }
     
-
     return (
         <form onSubmit={handleSubmit}>
             <input className="loginButton" type="text" placeholder = "Enter NetID"></input>    

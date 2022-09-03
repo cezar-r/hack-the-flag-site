@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 import {Routes, Route, BrowserRouter } from 'react-router-dom';
 
-// import MatrixRain  from './MatrixRain'
 import Home from './Home';
 import Announcements from './Announcements';
 import Topics from './Topics';
@@ -23,11 +22,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/topics" element={<Topics />} />
           {/* <Route path="/calendar" element={<Calendar />} /> */}
           <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
