@@ -11,7 +11,7 @@ const LoginField = () => {
     const handleSubmit = event => {
         event.preventDefault();
         const netId = event.target[0].value;
-    
+
         if (validNetIds.includes(netId)) {
             console.log("youre in");
             navigate('/announcements');
@@ -20,10 +20,10 @@ const LoginField = () => {
             console.log("try 'cezarr' for now and add ur netid in admin-panel");
         }
     }
-    
+
     return (
         <form  onSubmit={handleSubmit}>
-            <input className="loginButton" type="text" placeholder = "Enter NetID"></input>    
+            <input className="loginButton" type="text" placeholder = "Enter NetID"></input> 
         </form>
     );
 };

@@ -4,11 +4,11 @@ import {
   NavLink,
   NavMenu,
 } from './NavbarElements';
-  
+
 const Navbar = () => {
   return (
     <>
-      <Nav>  
+      <Nav>
         <NavMenu>
           <NavLink to='/announcements' activeStyle>
             Announcements
@@ -22,7 +22,8 @@ const Navbar = () => {
           <NavLink to='/aboutus' activeStyle>
             About Us
           </NavLink>
-          <NavLink to='https://discord.gg/tHTuFCfu' activeStyle>
+          <NavLink to='//discord.gg/tHTuFCfu' target="_blank"
+           rel="noopener noreferrer" activeStyle>
             Discord
           </NavLink>
         </NavMenu>
@@ -30,5 +31,5 @@ const Navbar = () => {
     </>
   );
 };
-  
+
 export default Navbar;
