@@ -48,7 +48,7 @@ input:focus{
   z-index: 10;
 }
 
-* { 
+* {
   font-family: 'codeFont';
   color: #20C20E;
 }
@@ -58,7 +58,7 @@ input:focus{
   padding: 0.2rem calc((100vw - 1000px) / 3);
 }
 
-.lessonTabs {
+.lessonTabs{
   margin-top: 40px;
   border: 4px solid #20C20E;
   border-radius: 8px;
@@ -69,9 +69,36 @@ input:focus{
 }
 
 .aboutUs {
+  text-align: justify;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.officerTabs{
+  margin-top: 40px;
+  border: 4px solid #20C20E;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  width: 260px;
+  display: inline-block;
+}
+.officerTabs h4{
+  text-align: left;
+}
+.officerTabs img{
+  margin-top: 15px;
+}
+.officerTabs p{
+text-align: right;
+}
+.container{
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 50px;
 }
 
 .calendar {
