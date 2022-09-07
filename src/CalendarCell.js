@@ -1,11 +1,7 @@
 import './App.css';
 import React from 'react';
 
-
-
 export default function CalendarCell(props) {
-
-    // date day eventname location time
 
     if (props.date === "") {
        return (
