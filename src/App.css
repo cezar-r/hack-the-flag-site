@@ -78,35 +78,41 @@ input:focus{
   text-align: center;
 }
 
+.calendarMonthPicker {
+  display: inline-flex;
+  /* text-align: center; */
+}
+
 .calendarRow {
   border: 1px solid #20C20E;
-  display: inline-block;
-  padding: 15px;
+  display: inline-flex;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.calendarDate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.calendarCell, .emptyCalendarCell, .defaultCalendarCell {
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
 }
 
 .calendarCell {
-  min-width: 100px;
-  min-height: 120px;
-  /* max-width: 200px; */
-  /* max-width: 200px; */
-  display: inline-block;
+  font-size: 15px;
+  text-align: left;
 }
-
 
 .emptyCalendarCell {
-  min-width: 100px;
-  min-height: 120px;
-  /* max-width: 200px; */
-  /* max-width: 200px; */
-  /* display: inline-block; */
   color: black;
 }
 
-.defaultCalendarCell {
-  min-width: 100px;
-  min-height: 120px;
-  /* max-width: 200px; */
-  /* max-width: 200px; */
-  /* display: inline-block; */
-  color: black;
+.arrowButton {
+  background-color: black;
+  font-size: 30px;
 }
