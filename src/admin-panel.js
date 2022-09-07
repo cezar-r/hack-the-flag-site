@@ -32,7 +32,11 @@ const topics = [
 ]
 
 const calendar = {
-
+    "09/08/2022": {
+        "eventName": "HTF Meeting",
+        "location": "Gould Simpson 918",
+        "time": "4-5pm"   
+    }
 };
 
 const aboutUs = [
@@ -42,6 +46,14 @@ const aboutUs = [
     }
 ];
 
-const discordUrl = "";
+const officerInfo = [
+    {
+        "name": "Cezar Rata",
+        "img": "",
+        "bio": "I have a little over 2 years of experience with programming and just shy of 6 months experience with hacking."
+    }
+];
 
-export { validNetIds, announcements, topics, calendar, aboutUs, discordUrl };
+const discordUrl = "//discord.gg/tHTuFCfu";
+
+export { validNetIds, announcements, topics, calendar, aboutUs, officerInfo, discordUrl };

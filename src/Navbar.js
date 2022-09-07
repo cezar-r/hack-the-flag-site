@@ -5,6 +5,8 @@ import {
   NavMenu,
 } from './NavbarElements';
 
+import { discordUrl } from './admin-panel';
+
 const Navbar = () => {
   return (
     <>
@@ -22,7 +24,7 @@ const Navbar = () => {
           <NavLink to='/aboutus' activeStyle>
             About Us
           </NavLink>
-          <NavLink to='//discord.gg/tHTuFCfu' target="_blank"
+          <NavLink to={ discordUrl } target="_blank"
            rel="noopener noreferrer" activeStyle>
             Discord
           </NavLink>
