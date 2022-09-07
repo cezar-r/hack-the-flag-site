@@ -73,3 +73,40 @@ input:focus{
   padding-left: 20%;
   padding-right: 20%;
 }
+
+.calendar {
+  text-align: center;
+}
+
+.calendarRow {
+  border: 1px solid #20C20E;
+  display: inline-block;
+  padding: 15px;
+}
+
+.calendarCell {
+  min-width: 100px;
+  min-height: 120px;
+  /* max-width: 200px; */
+  /* max-width: 200px; */
+  display: inline-block;
+}
+
+
+.emptyCalendarCell {
+  min-width: 100px;
+  min-height: 120px;
+  /* max-width: 200px; */
+  /* max-width: 200px; */
+  /* display: inline-block; */
+  color: black;
+}
+
+.defaultCalendarCell {
+  min-width: 100px;
+  min-height: 120px;
+  /* max-width: 200px; */
+  /* max-width: 200px; */
+  /* display: inline-block; */
+  color: black;
+}

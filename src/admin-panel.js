@@ -32,10 +32,22 @@ const topics = [
 ]
 
 const calendar = {
-    "09/08/2022": {
-        "eventName": "HTF Meeting",
-        "location": "Gould Simpson 918",
-        "time": "4-5pm"   
+    
+    "September": {
+        "8": {
+            "eventName": "HTF Meeting",
+            "location": "Gould Simpson 918",
+            "time": "4-5pm"   
+        }
+    },
+    "October": {
+
+    },
+    "November": {
+
+    },
+    "December": {
+        
     }
 };
 

@@ -6,6 +6,7 @@ import Home from './Home';
 import Announcements from './Announcements';
 import Topics from './Topics';
 import AboutUs from './AboutUs';
+import Calendar from './Calendar';
 
 
 /**
@@ -24,7 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/topics" element={<Topics />} />
-          {/* <Route path="/calendar" element={<Calendar />} /> */}
+          <Route path="/calendar" element={<Calendar />} />
           <Route path="/aboutus" element={<AboutUs />} />
         </Routes>
       </BrowserRouter>

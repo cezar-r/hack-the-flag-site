@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 export default function Topics() {
 
     const topicsElements = topics.map((a) => 
-        <div className='lessonTabs'>
+        <div className='lessonTabs' >
             <h2>
                 {a.lessonName}
             </h2>
