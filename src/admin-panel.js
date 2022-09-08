@@ -32,22 +32,58 @@ const topics = [
 ]
 
 const calendar = {
-
-    "September": {
-        "8": {
-            "eventName": "HTF Meeting",
-            "location": "Gould Simpson 918",
-            "time": "4-5pm"
+    "2022": {
+        "September": {
+            "8": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "4-5pm"   
+            },
+            "9": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "5-6pm"   
+            },
+            "15": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "4-5pm"   
+            },
+            "16": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "5-6pm"   
+            },
+            "22": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "4-5pm"   
+            },
+            "23": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "5-6pm"   
+            },
+            "29": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "4-5pm"   
+            },
+            "30": {
+                "eventName": "HTF Meeting",
+                "location": "Gould Simpson 918",
+                "time": "5-6pm"   
+            },
+        },
+        "October": {
+    
+        },
+        "November": {
+    
+        },
+        "December": {
+            
         }
-    },
-    "October": {
-
-    },
-    "November": {
-
-    },
-    "December": {
-
     }
 };
 

@@ -1,28 +1,46 @@
 import './App.css';
 import React from 'react';
 
-
-
 export default function CalendarCell(props) {
 
-    // date day eventname location time
-
-    let cssClass = "calendarCell";
-    if (props.date === ".") {
-        cssClass = "emptyCalendarCell";
-    } else if (props.eventName === ".") {
-        cssClass = "defaultCalendarCell";
-    }
-    console.log(props.date)
-    return (
-        <div className={cssClass}>
-            <div align= "left">
-                {props.date}
+    if (props.date === "") {
+       return (
+        <div className='emptyCalendarCell'>
+        </div>
+       )
+    } else if (props.eventName === "") {
+        return (
+            <div className="defaultCalendarCell">
+                 <div className = "calendarDate">
+                <div align="left">
+                    {props.day}
+                </div>
+                <div align="left">
+                    {props.date}
+                </div>
             </div>
-            <div align="right">
-                {props.day}
+            </div>
+        );
+    }
+    return (
+        <div className="calendarCell">
+            <div className = "calendarDate">
+                <div align="left">
+                    {props.day}
+                </div>
+
+                <div align="left">
+                    {props.date}
+                </div>
             </div>
             <div>
+                {props.eventName}
+            </div>
+            <div>
+                {props.location}
+            </div>
+            <div>
+                {props.time}
             </div>
         </div>
     );
