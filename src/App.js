@@ -15,7 +15,7 @@ import Calendar from './Calendar';
  * TODO
  * fix top border of login field being darker
  * add calendar
- * add discord url to discord nav that just launches discord  (Ali: Done)
+ * add discord url to discord nav that just launches discord  DONE
  * make matrix rain start at random position
  */
 

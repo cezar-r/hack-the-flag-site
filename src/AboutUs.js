@@ -22,7 +22,7 @@ export default function AboutUs() {
   const officerInfoElements = officerInfo.map((b)=>
 
       <div className='officerTabs'>
-         <img src = "https://picsum.photos/220/220"></img>
+         <img src = "https://picsum.photos/220/220" alt="officerX.jpg"></img>
           <h2>
               {b.name}
           </h2>
