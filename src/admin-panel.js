@@ -22,7 +22,7 @@ const topics = [
     {
         "lessonName": "Lesson 2 - Kali Basics",
         "slideUrl": "https://docs.google.com/presentation/d/17gENnzH3JmrAJpvNjMMQLk6S80BJmRIEp6ojEisnEkI/edit?usp=sharing",
-        "lessonDescription": "We went over a couple more operators, command switches, and how to access each command's documentation. We also went over some basic privilege stuff as well as well as common directories in every linux system. The video is being posted right now." 
+        "lessonDescription": "We went over a couple more operators, command switches, and how to access each command's documentation. We also went over some basic privilege stuff as well as well as common directories in every linux system. The video is being posted right now."
     },
     {
         "lessonName": "Lesson 3 - Remote Code Execution and SQL Injection",
@@ -96,9 +96,29 @@ const aboutUs = [
 
 const officerInfo = [
     {
+        "name": "Alexander Cooper",
+        "img": "",
+        "bio": "I have a little over 2 years of experience with programming and just shy of 6 months experience with hacking.",
+        "title": "Vice-President"
+    },
+    {
+        "name": "William Olive",
+        "img": "",
+        "bio": "I have a little over 2 years of experience with programming and just shy of 6 months experience with hacking.",
+        "title": "President"
+    },
+    {
         "name": "Cezar Rata",
         "img": "",
-        "bio": "I have a little over 2 years of experience with programming and just shy of 6 months experience with hacking."
+        "bio": "I have a little over 2 years of experience with programming and just shy of 6 months experience with hacking.",
+        "title": "Officer"
+    }
+    ,
+    {
+        "name": "Cole Perry",
+        "img": "",
+        "bio": "I have a little over 2 years of experience with programming and just shy of 6 months experience with hacking.",
+        "title": "Unknown"
     }
 ];
 
