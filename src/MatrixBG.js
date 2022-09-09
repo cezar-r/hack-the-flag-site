@@ -26,7 +26,7 @@ const MatrixBG = (props) => {
 	// Setting up the drops
 	const drops = [];
 	for (let i = 0; i < columns; i++) {
-		drops[i] = 1;
+		drops[i] = Math.random() * (-500 - 1) + 1;
 	}
 
 	const convertMousePosToRowsAndCols = (x, y) => {

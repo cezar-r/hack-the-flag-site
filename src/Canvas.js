@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 
 const Canvas = (props) => {
-	const { draw, fps = 30, establishContext, establishCanvasWidth, width = "100%", height = "100%", ...rest } = props;
+	const { draw, fps = 30, establishContext, establishCanvasWidth, width = "100%", height = "100vh", ...rest } = props;
 	const canvasRef = useRef(null);
 	const [context, setContext] = useState(null);
 
@@ -13,6 +13,7 @@ const Canvas = (props) => {
 			const { devicePixelRatio: ratio = 1 } = window;
 			canvas.width = width * ratio;
 			canvas.height = height * ratio;
+            console.log(width, height);
 			if (establishCanvasWidth) {
 				establishCanvasWidth(canvas.width);
 			}
@@ -22,7 +23,7 @@ const Canvas = (props) => {
 		return false;
 	};
 
-	useEffect(() => {
+    const handleWindowResize = () => {
 		//i.e. value other than null or undefined
 		if (canvasRef.current) {
 			const canvas = canvasRef.current;
@@ -36,6 +37,14 @@ const Canvas = (props) => {
 			// if canvasRef set to null, keep state variable consistent with this
 			setContext(null);
 		}
+    };
+
+	useEffect(() => {
+        window.addEventListener("resize", handleWindowResize);
+        handleWindowResize();
+        return () => {
+            window.removeEventListener("resize", handleWindowResize);
+        }
 	}, []);
 
 	useEffect(() => {
