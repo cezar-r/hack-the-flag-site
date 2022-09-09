@@ -132,8 +132,7 @@ text-align: right;
 
 .calendarCell, .emptyCalendarCell, .defaultCalendarCell {
   min-width: 150px;
-  min-height: 150px;
-  max-width: 150px;
+  min-height: 130px;
 }
 
 .calendarCell {
@@ -148,6 +147,7 @@ text-align: right;
 .arrowButton {
   background-color: black;
   font-size: 30px;
+  border-color: black;
 }
 
 .whiteSpace50px {
