@@ -20,7 +20,7 @@ const MatrixBG = (props) => {
 	const letters = chars.split("");
 
 	// Font-size remains constant, so similarly move outside draw
-	const fontSize = 10;
+	const fontSize = 5;
 	// Setting up the columns
 	const columns = canvasWidth ? canvasWidth / fontSize : 10;
 	// Setting up the drops
