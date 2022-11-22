@@ -1,3 +1,5 @@
+[https://hack-the-flag-uofa.herokuapp.com/](https://hack-the-flag-uofa.herokuapp.com/)
+
 # Installation
 1) Download [NodeJS](https://nodejs.org/en/download/)
 2) Run `git clone https://github.com/cezar-r/hack-the-flag-site.git & cd hack-the-flag-site`
